@@ -93,6 +93,31 @@
 /* SELFIE */
 
 .selfie {
-    width: 40%;
-    height: auto;
+    height: 30%;
+    width: auto;
+}
+
+/* ABOUT ME GRID CONTAINER */
+.grid-container-about {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+
+    gap: 10px;
+
+    padding: 10px;
+    
+    margin-top: 14px;
+}
+
+.grid-container-about1 {
+    grid-column-start: 1;
+
+    grid-column-end: 4;
+}
+
+.grid-container-about2 {
+    grid-column-start: 1;
+
+    grid-column-end: 2;
 }
