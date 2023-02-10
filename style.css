@@ -1,17 +1,15 @@
 /* UTILITIES */
-* {
+body {
 
     margin: 0;
-    
-    padding: 0;
     
     box-sizing: border-box;
     
 }
 
-section {
+.aboutMe {
 
-    padding: 20px;
+    padding: 16px;
 
 }
 
@@ -55,7 +53,8 @@ section {
 /* NAME*/
 
 .name{
-    padding: 5px 14px;
+    padding: 14px;
+    font-size: 32px;
 }
 
 /* NAVBAR MENU */
@@ -74,15 +73,13 @@ section {
 
     background-color: #a3b18a;
 
-    border-radius: 14px;
-
     transition: 0.3s ease;
 
 }
     
 .menu li {
 
-    padding: 5px 14px;
+    padding: 14px 16px;
 
     text-decoration: none;
 
