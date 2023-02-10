@@ -118,6 +118,8 @@ h2 {
     margin-top: 20px;
 
     width: 75%;
+
+    height: 100%;
 }
 
 .grid-container-about1 {
@@ -140,7 +142,7 @@ h2 {
 /* SELFIE */
 
 .selfie {
-    width: 90%;
+    width: 100%;
 
     height: auto;
 }
@@ -154,13 +156,15 @@ h2 {
 
     padding: 5%;
 
-    width: 90%;
+    width: 60%;
+
+    height: 100%;
 }
 
 .accessibility_heading {
     text-align: center;
 
-    margin: 5px;
+    padding: 5%;
 
 }
 
@@ -171,5 +175,7 @@ h2 {
 
     padding: 5%;
     
-    width: 90%
+    width: 90%;
+
+    height: 100%;
 }
