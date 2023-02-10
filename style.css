@@ -10,7 +10,12 @@
 }
 
 body {
-    background-image: url("/images/background.png") no-repeat center center fixed;
+    background-image: url("/images/background.png");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* NAVBAR STYLING STARTS */
@@ -141,7 +146,14 @@ body {
 
     margin: 30px;
 
-    padding: 10%;
+    padding: 5%;
 
     width: 90%;
+}
+
+.accessibility_heading {
+    text-align: center;
+
+    margin: 5px;
+
 }
