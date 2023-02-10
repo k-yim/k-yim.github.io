@@ -20,19 +20,24 @@
     </ul>
   </nav>
 
-  <section id="Form">
-    <h2>Contact Me</h2> 
-    <form action="mailto:katelyn.yim@tamu.edu" method="post" enctype="text/plain">
-      Name:<br>
-      <input type="text" name="name"><br>
-      E-mail:<br>
-      <input type="text" name="mail"><br>
-      Comment:<br>
-      <input type="textarea" name="comment" size="50"><br><br>
-      <input type="submit" value="Send">
-      <input type="reset" value="Reset">
-    </form>
-  </section>
+  <div class="email">
+    <section id="Form">
+      <h2>Contact Me</h2> 
+      <form action="mailto:katelyn.yim@tamu.edu" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name" placeholder="First_Name Last_Name"><br>
+        E-mail:<br>
+        <input type="text" name="mail" placeholder="your.email@gmail.com"><br>
+        Comment:<br>
+        <textarea rows= "4" cols="50" type="text" name="comment" placeholder="Write your comments here..." required="required"></textarea>
+        
+        <br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </form>
+    </section>
+  </div>
+
     
 </body>
 </html>

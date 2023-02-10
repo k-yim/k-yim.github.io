@@ -16,8 +16,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
+h2 {
+    color: #344e41;
+    font-size: large;
+    text-emphasis: bold;
+}
 /* NAVBAR STYLING STARTS */
 
 .navbar {
@@ -57,7 +63,7 @@ body {
 
 /* NAME*/
 
-.name{
+.name {
     font-size: 24px;
 }
 
@@ -134,7 +140,7 @@ body {
 /* SELFIE */
 
 .selfie {
-    width: 65%;
+    width: 90%;
 
     height: auto;
 }
@@ -156,4 +162,15 @@ body {
 
     margin: 5px;
 
+}
+
+/* CONTACT ME */
+.email {
+    text-align: center;
+
+    margin: 30px;
+
+    padding: 5%;
+    
+    width: 90%
 }
