@@ -82,7 +82,7 @@
 
 }
 
-.menu a:active{
+.active{
 
     background-color: #fefae0;
 
@@ -93,8 +93,8 @@
 /* SELFIE */
 
 .selfie {
-    height: 30%;
-    width: auto;
+    height: auto;
+    width: 30;
 }
 
 /* ABOUT ME GRID CONTAINER */
@@ -106,7 +106,7 @@
     gap: 10px;
 
     padding: 10px;
-    
+
     margin-top: 14px;
 }
 
@@ -120,4 +120,11 @@
     grid-column-start: 1;
 
     grid-column-end: 2;
+}
+
+/* ACCESSIBILITY */
+
+.accessibility {
+    text-align: center;
+    margin: 16px;
 }
