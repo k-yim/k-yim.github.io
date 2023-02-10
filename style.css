@@ -116,7 +116,7 @@ h2 {
 
     margin-top: 20px;
 
-    width: 75%;
+    width: 100%;
 
     height: 100%;
 }
@@ -146,7 +146,7 @@ h2 {
 /* SELFIE */
 
 .selfie {
-    width: 100%;
+    width: 75%;
 
     height: auto;
 }
@@ -176,6 +176,7 @@ h2 {
 
 .accessible{ 
     width: 50%;
+    padding-top: 5%;
 }
 
 /* CONTACT ME */
@@ -188,4 +189,6 @@ h2 {
     width: 90%;
 
     height: 100%;
+
+    margin-left: 10%;
 }
