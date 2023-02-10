@@ -9,6 +9,12 @@
     
 }
 
+section {
+
+    padding: 20px;
+
+}
+
 /* NAVBAR STYLING STARTS */
 
 .navbar {
@@ -19,7 +25,7 @@
     
     justify-content: space-between;
     
-    padding: 20px;
+    padding: 14px;
     
     background-color: #3a5a40;
     
@@ -42,7 +48,7 @@
 
     color: #fefae0;
 
-    list-style-type: none;
+    text-decoration: none;
 
 }
 
