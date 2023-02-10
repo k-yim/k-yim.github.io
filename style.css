@@ -9,6 +9,10 @@
     
 }
 
+body {
+    background-image: url("/images/background.png");
+}
+
 /* NAVBAR STYLING STARTS */
 
 .navbar {
@@ -90,13 +94,6 @@
     
 }
 
-/* SELFIE */
-
-.selfie {
-    height: auto;
-    width: 30;
-}
-
 /* ABOUT ME GRID CONTAINER */
 .grid-container-about {
     display: grid;
@@ -107,7 +104,9 @@
 
     padding: 10px;
 
-    margin-top: 14px;
+    margin-top: 20px;
+
+    width: 75%;
 }
 
 .grid-container-about1 {
@@ -122,9 +121,25 @@
     grid-column-end: 2;
 }
 
+.grid-container-about3 {
+    grid-column-start: 2;
+
+    grid-column-end: 4;
+}
+/* SELFIE */
+
+.selfie {
+    width: 65%;
+
+    height: auto;
+}
+
 /* ACCESSIBILITY */
 
 .accessibility {
     text-align: center;
+
     margin: 16px;
+
+    width: 50%;
 }
