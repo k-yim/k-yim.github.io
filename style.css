@@ -21,8 +21,7 @@ body {
 
 h2 {
     color: #344e41;
-    font-size: 24px;
-    text-emphasis: bold;
+    font-size: 32px;
 }
 /* NAVBAR STYLING STARTS */
 
@@ -137,7 +136,12 @@ h2 {
 .grid-container-about3 {
     grid-column-start: 2;
 
-    grid-column-end: 4;
+    grid-column-end: 3;
+
+    margin-left: 10%;
+
+    margin-top: 25%;
+
 }
 /* SELFIE */
 
@@ -151,7 +155,7 @@ h2 {
 
 .accessibility {
     text-align: center;
-    
+
     padding: 5%;
 
     width: 75%;
