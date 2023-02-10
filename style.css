@@ -7,12 +7,6 @@ body {
     
 }
 
-.aboutMe {
-
-    padding: 16px;
-
-}
-
 /* NAVBAR STYLING STARTS */
 
 .navbar {
@@ -91,4 +85,11 @@ body {
 
     color: #344E41;
     
+}
+
+/* SELFIE */
+
+.selfie {
+    width: 30%;
+    height: auto;
 }
