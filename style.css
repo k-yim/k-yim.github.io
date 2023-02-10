@@ -1,9 +1,11 @@
 /* UTILITIES */
-body {
+* {
 
     margin: 0;
     
     box-sizing: border-box;
+
+    font-family: 'Trebuchet MS', sans-serif;
     
 }
 
@@ -17,7 +19,7 @@ body {
     
     justify-content: space-between;
     
-    padding: 14px;
+    padding: 10px;
     
     background-color: #3a5a40;
     
@@ -47,8 +49,7 @@ body {
 /* NAME*/
 
 .name{
-    padding: 14px;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 /* NAVBAR MENU */
@@ -66,6 +67,8 @@ body {
 .menu li:hover {
 
     background-color: #a3b18a;
+
+    border-radius: 14px;
 
     transition: 0.3s ease;
 
@@ -90,6 +93,6 @@ body {
 /* SELFIE */
 
 .selfie {
-    width: 30%;
+    width: 40%;
     height: auto;
 }
